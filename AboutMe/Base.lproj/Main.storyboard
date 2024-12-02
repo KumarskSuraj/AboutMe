@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h7r-gp-Ezv">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MySelf-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="R4T-3W-vSO">
+                                <rect key="frame" x="16" y="59" width="361" height="694"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FAo-dl-DPE">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="210"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SgCzcj" translatesAutoresizingMaskIntoConstraints="NO" id="B9m-S9-nSf">
+                                                <rect key="frame" x="0.0" y="0.0" width="361" height="210"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="361" id="F2N-JP-REJ"/>
+                                                    <constraint firstAttribute="height" constant="210" id="fRh-IJ-u15"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monkey D luffy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7CZ-0R-AXi">
+                                        <rect key="frame" x="0.0" y="245" width="224" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYM-2k-t6E">
+                                        <rect key="frame" x="0.0" y="322" width="361" height="372"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="361" id="1iY-6s-sgc"/>
+                                            <constraint firstAttribute="height" constant="372" id="uwn-fQ-ef2"/>
+                                        </constraints>
+                                        <string key="text">Monkey D. Luffy is the captain of the Straw Hat Pirates, and dreamt of being a pirate since childhood from the influence of his idol and mentor Red-Haired Shanks. At the age of 17, Luffy sets sail from the East Blue Sea to the Grand Line in search of the legendary treasure, One Piece, to succeed Gol D. Roger as "King of the Pirates".</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="LZa-5Y-0Kj"/>
+                                    <constraint firstAttribute="height" constant="694" id="LlY-lQ-pef"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemCyanColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="R4T-3W-vSO" secondAttribute="bottom" constant="16" id="1VR-QP-kjZ"/>
+                            <constraint firstItem="R4T-3W-vSO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2sX-nM-ILf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R4T-3W-vSO" secondAttribute="trailing" constant="16" id="CVt-Pb-EfV"/>
+                            <constraint firstItem="R4T-3W-vSO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yBi-6Z-HRz"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="MySelf" image="person.crop.circle" catalog="system" selectedImage="person.circle.fill" id="BKc-Ph-YXr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-761.06870229007632" y="569.71830985915494"/>
+        </scene>
+        <!--Age-->
+        <scene sceneID="ZNe-8r-kRA">
+            <objects>
+                <viewController id="Xp7-Eh-2ab" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nbn-89-Yrg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="abc-hs-RI0">
+                                <rect key="frame" x="16" y="268" width="361" height="470"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Luffy HomeTown" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCW-H1-MJW">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r6H-ho-4GX">
+                                        <rect key="frame" x="0.0" y="63" width="361" height="407"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ehq-0c-Sxn">
+                                                <rect key="frame" x="0.0" y="0.0" width="361" height="407"/>
+                                                <color key="backgroundColor" red="0.68465612352508853" green="0.57842923945341129" blue="0.42649790952309813" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <string key="text">Luffy first appears as a young boy in Windmill Village located in the Goa kingdom, where he befriends the pirate "Red-Haired" Shanks and intends to become one himself. He accidentally eats the Gum-Gum Devil Fruit and acquires rubber powers at the cost of being unable to swim.</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="r6H-ho-4GX" firstAttribute="trailing" secondItem="abc-hs-RI0" secondAttribute="trailingMargin" id="GNd-Im-PMx"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uemr5612ssfb1" translatesAutoresizingMaskIntoConstraints="NO" id="Gxy-Cj-uZb">
+                                <rect key="frame" x="16" y="59" width="361" height="183"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="183" id="Olo-wj-BAZ"/>
+                                    <constraint firstAttribute="width" constant="361" id="SQm-jj-qM8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bZX-Es-tMz"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="bZX-Es-tMz" firstAttribute="trailing" secondItem="Gxy-Cj-uZb" secondAttribute="trailing" constant="16" id="3bg-sD-d8s"/>
+                            <constraint firstItem="abc-hs-RI0" firstAttribute="leading" secondItem="Gxy-Cj-uZb" secondAttribute="leading" id="QS3-KI-zDv"/>
+                            <constraint firstItem="bZX-Es-tMz" firstAttribute="bottom" secondItem="abc-hs-RI0" secondAttribute="bottom" constant="31" id="bfb-hH-gvV"/>
+                            <constraint firstItem="Gxy-Cj-uZb" firstAttribute="top" secondItem="bZX-Es-tMz" secondAttribute="top" id="cqr-C5-qDh"/>
+                            <constraint firstItem="Gxy-Cj-uZb" firstAttribute="leading" secondItem="bZX-Es-tMz" secondAttribute="leading" constant="16" id="orV-aU-Yus"/>
+                            <constraint firstItem="abc-hs-RI0" firstAttribute="centerX" secondItem="Nbn-89-Yrg" secondAttribute="centerX" id="pbk-ux-ify"/>
+                            <constraint firstItem="abc-hs-RI0" firstAttribute="trailing" secondItem="Gxy-Cj-uZb" secondAttribute="trailing" id="vTH-eb-fcy"/>
+                            <constraint firstItem="abc-hs-RI0" firstAttribute="top" secondItem="Gxy-Cj-uZb" secondAttribute="bottom" constant="26" id="vba-wr-EiV"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Age" image="homekit" catalog="system" selectedImage="homekit" id="kUy-zw-C2i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fDz-VZ-aKv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="84.732824427480907" y="569.71830985915494"/>
+        </scene>
+        <!--Education-->
+        <scene sceneID="GhN-o5-Ju3">
+            <objects>
+                <viewController id="CAc-rn-EFD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tyN-yf-KPn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xel-m3-JNn"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Education" image="book" catalog="system" selectedImage="book.fill" id="WU2-KT-EKi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zzv-Ui-bbN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1100" y="569.71830985915494"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Uhb-xS-iqM">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="h7r-gp-Ezv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="u3G-O2-2em">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="scrollEdgeAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="598-CQ-SHW"/>
+                        <segue destination="Xp7-Eh-2ab" kind="relationship" relationship="viewControllers" id="dp1-RX-0tV"/>
+                        <segue destination="CAc-rn-EFD" kind="relationship" relationship="viewControllers" id="6Uy-Y5-SFa"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bUm-gz-hlA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-74" y="-176"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SgCzcj" width="1920" height="1080"/>
+        <image name="book" catalog="system" width="128" height="99"/>
+        <image name="book.fill" catalog="system" width="128" height="95"/>
+        <image name="homekit" catalog="system" width="128" height="104"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
+        <image name="uemr5612ssfb1" width="1920" height="1080"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
